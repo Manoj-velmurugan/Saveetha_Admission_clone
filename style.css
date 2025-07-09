@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, p{
+    color: white;
+}
+
+h3{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.background{
+    position: relative;
+}
+
+.form-container {
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    background-color: rgba(0, 0, 0, 0.5); /* white with 80% opacity */
+    width: 22%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4% 4% 4%;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.phone-container select{
+    width: 30%;
+
+}
+
+.phone-container input{
+    width: 60%;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}   
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    width: 40%;;
+}
+
+.acknowledge {
+    position: relative;
+    padding-left: 25px;
+}
+
+.acknowledge input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.acknowledge p {
+    margin: 0;
+    text-align: justify;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+select{
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 49%;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #D79E2F;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color:#D79E2F
+}
+
+
+
+/* media query for mobile devices */
+@media (max-width: 768px) {
+  .form-container {
+    position: static;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: rgb(79, 88, 79);
+  }
+
+  .image{
+    width: 100%;
+    height: 200px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .phone-container {
+    flex-direction: row;
+  }
+
+  .phone-container select{
+    margin-bottom: 10px;
+    width: 30%;
+    margin-right: 5px;
+  }
+  .phone-container input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .acknowledge {
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
