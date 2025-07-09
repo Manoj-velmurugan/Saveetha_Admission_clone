@@ -308,6 +308,11 @@ button:hover{
 ```
 
 ## Output:
+## Desktop : 
+![image](https://github.com/user-attachments/assets/0d7a2833-07fd-47ff-8060-2096f33ca975)
+
+## Mobile : 
+![image](https://github.com/user-attachments/assets/00f3e2e6-1613-40a8-9ee5-dda4ba09c3e3)
 
 ## Result:
 A landing page clone of Saveetha Engineering College’s Admission Enquiry form using HTML and CSS is designed successfully.
